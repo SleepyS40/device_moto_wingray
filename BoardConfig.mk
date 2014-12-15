@@ -38,7 +38,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Kernel
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_BASE := 0x10000000
-BOARD_KERNEL_CMDLINE := androidboot.carrier=wifi-only product_type=w
+BOARD_KERNEL_CMDLINE := androidboot.carrier=wifi-only product_type=w androidboot.selinux=permissive
 #KERNEL_MODULES_DIR := /system/lib/modules
 TARGET_KERNEL_SOURCE := kernel/moto/wingray
 TARGET_KERNEL_CONFIG := eos_defconfig
